@@ -1,0 +1,79 @@
+{
+  "plans": {
+    "plan:free@0": {
+      "title": "Free",
+      "features": {
+        "feature:aicopy": {
+          "title": "1 AI generated copy",
+          "mode": "volume",
+          "tiers": [
+            {
+              "upto": 1
+            }
+          ]
+        },
+        "feature:base": {
+          "base": 0,
+          "title": "Base"
+        }
+      }
+    },
+    "plan:pro@0": {
+      "title": "PRO",
+      "currency": "cad",
+      "features": {
+        "feature:aicopy": {
+          "title": "15 AI generated copy",
+          "mode": "volume",
+          "tiers": [
+            {
+              "upto": 15,
+              "base": 0
+            }
+          ]
+        },
+        "feature:base": {
+          "base": 4000,
+          "title": "Base"
+        },
+        "feature:extraaicopy": {
+          "title": "Extras @ $3/copy",
+          "mode": "volume",
+          "tiers": [
+            {
+              "price": 3
+            }
+          ]
+        }
+      }
+    },
+    "plan:ultimate@0": {
+      "title": "ULTIMATE",
+      "currency": "cad",
+      "features": {
+        "feature:aicopy": {
+          "title": "30 AI generated copy",
+          "mode": "volume",
+          "tiers": [
+            {
+              "upto": 30
+            }
+          ]
+        },
+        "feature:base": {
+          "base": 5000,
+          "title": "Base"
+        },
+        "feature:extraaicopy": {
+          "title": "Extras @ $5/copy",
+          "mode": "volume",
+          "tiers": [
+            {
+              "price": 500
+            }
+          ]
+        }
+      }
+    }
+  }
+}
